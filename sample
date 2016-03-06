@@ -1,0 +1,23 @@
+echo Enter your name please:
+read fname
+
+echo $fname, please enter your age:
+read fage
+
+
+echo Enter your name please:
+read sname
+
+echo $sname, please enter your age:
+read sage
+
+if [ $fage -gt $sage ]
+then
+      echo $fname is elder than $sname
+else if [ $fage -eq $sage ]
+then  echo $fname and $sname are of same age
+
+else
+      echo $fname is younger than $sname
+fi
+fi
