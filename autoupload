@@ -5,6 +5,6 @@ read comment
 
 cd /root/devop-projects/devops-coding/ 
 git add $file
-git commit -a $comment
+git commit -m "$comment"
 git push
 
